@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div,span{
+    display: inline-block;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.first{
+    border-right: 1px solid rgb(227, 227, 227);
+}
+.first,.third{
+    flex-grow: 1;
+    height: 100vh;
+}
+.second{
+    position: relative;
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    background: rgb(255, 255, 255);
+    border-right: 1px solid rgb(227, 227, 227);
+    height: 100vh;
+}
+.nav{
+    padding: 10px;
+    height: 50px;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    border-bottom: 1px solid rgb(227, 227, 227);
+}
+.msgs{
+    position: absolute;
+    width: 100%;
+    top: 50px;
+    height: 85%;
+}
+.msgimg{
+    width: 75%;
+    height: 80%;
+    margin-left: 55px;
+    border-radius: 10px;
+}
+.chatname{
+    display: inline-block;
+    position: relative;
+    width: 90%;
+}
+.chat{
+    font-weight: bolder;
+}
+.group{
+    color: grey;
+}
+i{
+    font-size: 19px;
+}
+i:hover{
+    cursor: pointer;
+}
+.chat{
+    display: inline-block;
+    font-size: 19px;
+}
+.fa-heart{
+    color: palevioletred;
+}
+.input{
+    display: inline-block;
+    width: 95%;
+    height: 35px;
+    border-radius: 5px;
+    border: 0;
+    background: rgb(208, 208, 208);
+    padding-left: 50px;
+    position: relative;
+}
+.input::placeholder{
+    font-weight: bold;
+    opacity: 1;
+}
+.msgdiv{
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    left: 2.5%;
+    bottom: 15px;
+}
+.i{
+    color: white;
+    position: absolute;
+    left: 10px;
+    top:8px;
+}
+.i2{
+    color: grey;
+    position: absolute;
+    right: 100px;
+    top:8px;
+}
+.i3{
+    color: grey;
+    position: absolute;
+    right: 50px;
+    top:8px;
+}
+.i4{
+    color: grey;
+    position: absolute;
+    right: 75px;
+    top:8px;
+}
+.searchinput{
+    border: 0;
+    border-radius: 25px;
+    background:rgb(208, 208, 208);
+    width: 220px;
+    height: 30px;
+    padding-left: 100px;
+}
+.third{
+    position: relative;
+}
+.search{
+    display: inline-block;
+    position: absolute;
+    left: 15%;
+    top: 10px;
+}
+.mag{
+    color: grey;
+    position: absolute;
+    left: 50px;
+    top: 5px;
+}
+.leave{
+    display: inline-block;
+    border: 0;
+    border-radius: 10px;
+    background:rgb(208, 208, 208);
+    font-weight: bolder;
+    height: 30px;
+    width: 150px;
+    padding-left: 20px;
+}
+.leave:hover{
+    cursor: pointer;
+}
+.first{
+    position: relative;
+}
+.leavespan{
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+}
+.fa-right-from-bracket{
+    transform: rotate(180deg);
+    color: grey;
+    position: absolute;
+    bottom: 5px;
+    right: 120px;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+}
+.emma{
+    display: block;
+    width: 100%;
+    margin-top: 25px;
+}
+.emmamsg{
+    background:rgb(208, 208, 208);
+    width: 75%;
+    margin-left: 5px;
+    height: 55px;
+    font-weight: bolder;
+    position: relative;
+    top: -15px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.emmap{
+    color: blue;
+}
+.fa-ellipsis-vertical{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    color: grey;
+}
+.time{
+    color: grey;
+    font-size: x-small;
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+}

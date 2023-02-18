@@ -205,3 +205,59 @@ i:hover{
     right: 10px;
     bottom: 5px;
 }
+@media(max-width:450px){
+    *{
+        overflow-x :hidden; 
+        overflow-y :hidden; 
+    }
+    .input{
+        padding-left: 11%;
+        font-size: smaller;
+    }
+    .i,.i2,.i3,.i4{
+        font-size: 15px;
+    }
+    .i4{
+        right: 15px;
+    }
+    .i3{
+        right: 32px;
+    }
+    .i2{
+        right: 44px;
+    }
+    .i{
+        left: 5px;
+    }
+    .chatname{
+        width: 65%;
+    }
+    .msgimg{
+        width: 80%;
+        height: 80%;
+        margin-left: 32px;
+    }
+    .icon{
+        width: 25px;
+        height: 25px;
+    }
+    .emmamsg{
+        top: 0%;
+    }
+    .leave{
+        height: 40px;
+        font-weight: bold;
+        width: 77px;
+    }
+    .fa-right-from-bracket{
+        bottom: 10px;
+        right: 50px;
+    }
+    .searchinput{
+        width: 80px;
+        padding-left: 5px;
+    }
+    .mag{
+        font-size: medium;
+    }
+}

@@ -234,7 +234,7 @@ i:hover{
     }
     .msgimg{
         width: 80%;
-        height: 80%;
+        height: 70%;
         margin-left: 32px;
     }
     .icon{
@@ -243,6 +243,9 @@ i:hover{
     }
     .emmamsg{
         top: 0%;
+    }
+    .msgdiv,.leavespan{
+        bottom: 150px;
     }
     .leave{
         height: 40px;

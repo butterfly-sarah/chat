@@ -243,6 +243,7 @@ i:hover{
     }
     .emmamsg{
         top: 0%;
+        height:70px;
     }
     .msgdiv,.leavespan{
         bottom: 70px;
@@ -262,5 +263,11 @@ i:hover{
     }
     .mag{
         font-size: medium;
+    }
+    .time{
+        bottom: 0%;
+    }
+    .emmap,.thank{
+        font-size: smaller;
     }
 }
